@@ -1,0 +1,236 @@
+body{
+    width: 100%;
+    background: #eeeeee;
+}
+.title{
+    width: 100%;
+    height: 4.86rem;
+    background: #f7ba2c;
+}
+.title_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title_top h1{
+    width: 50%;
+    font-size: 0.34rem;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin: 0.2rem auto;
+    text-align: center;
+}
+.title_top a{
+    display: inline-block;
+}
+.title_top a i{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.title_bottom img{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin: 1.08rem auto 0.22rem;
+}
+.title_name{
+    width: 2.03rem;
+    height: 0.58rem;
+    background: url(../images/regsiter_07.png) no-repeat;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+}
+/* 列表 开始*/
+.box_list{
+    width: 100%;
+    margin-top: 0.2rem;
+    background: #fefefe;
+    box-shadow: 0px 10px 10px #bdbdbd;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    padding-bottom: 0.5rem;
+}
+.box_list form{
+    width: 90%;
+    margin: 0 auto;
+}
+.box_list label{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    justify-content: left;
+    margin-top: 0.2rem;
+}
+.icon{
+    width: 0.59rem;
+    height: 0.59rem;
+    display: block;
+    margin-top: 0.2rem;
+
+}
+.icon1{
+    background: url(../images/images/message_03.png) no-repeat;
+    background-size: contain;
+}
+.icon2{
+    background: url(../images/images/message_06.png) no-repeat;
+    background-size: contain;
+}
+.icon3{
+    background: url(../images/images/message_08.png) no-repeat;
+    background-size: contain;
+}
+.icon4{
+    background: url(../images/images/message_10.png) no-repeat;
+    background-size: contain;
+}
+.icon5{
+    background: url(../images/images/message_12.png) no-repeat;
+    background-size: contain;
+}
+.icon6{
+    background: url(../images/images/message_14.png) no-repeat;
+    background-size: contain;
+}
+.icon7{
+    background: url(../images/images/message_16.png) no-repeat;
+    background-size: contain;
+}
+.icon8{
+    background: url(../images/images/message_18.png) no-repeat;
+    background-size: contain;
+}
+.icon9{
+    background: url(../images/images/message_20.png) no-repeat;
+    background-size: contain;
+}
+.icon10{
+    background: url(../images/images/message_22.png) no-repeat;
+    background-size: contain;
+}
+.icon11{
+    background: url(../images/images/message_24.png) no-repeat;
+    background-size: contain;
+}
+.icon12{
+    background: url(../images/images/message_26.png) no-repeat;
+    background-size: contain;
+}
+.icon13{
+    background: url(../images/images/message_28.png) no-repeat;
+    background-size: contain;
+}
+.icon14{
+    background: url(../images/images/message_30.png) no-repeat;
+    background-size: contain;
+}
+.box_list label input{
+    border: 0;
+    margin-left: 0.15rem;
+    color: #a8a8a8;
+    outline: none;
+}
+/* 列表 结束 */
+.btn{
+    width: 85%;
+    height: 0.8rem;
+    background: #f7ba2c;
+    border-radius: 0.15rem;
+    margin: 0 auto 0.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.btn a{
+    color: #fff;
+}
+
+/* 提交身份证开始 */
+.title1{
+    background: #f7ba2c;
+}
+.body_box{
+    width: 100%;
+}
+.body_box1{
+    width: 75%;
+    margin: 1rem auto;
+}
+.body_zheng,.body_fan{
+    width: 100%;
+    height: 3.37rem;
+    border: 1px dashed #dcdcdc;
+    margin-bottom: 0.8rem;
+}
+.body_zheng_pic{
+    width: 90%;
+    height: 90%;
+    margin: 5% auto 0;
+    position: relative;
+}
+.body_zheng_pic1{
+    width: 90%;
+    height: 90%;
+    margin: 5% auto 0;
+}
+.shangchuan{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    background: url(../images/images/card_btn_03.png) no-repeat;
+    background-size: contain;
+    top: 0.8rem;
+    left: 50%;
+    margin-left: -0.5rem;
+}
+.body_zheng_pic img{
+    width: 100%;
+    height: 90%;
+}
+.body_zheng_pic .form_box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.body_zheng_pic input{
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+} 
+.body_zheng_pic p{
+    margin-top: 2rem;
+    text-align: center;
+}
+.title_bottom p span{
+    display: block;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.title_bottom p span:nth-child(1){
+    margin-top: 0.5rem;
+}
+.back{
+    color: #fff;
+    margin-top: 0.15rem;
+    margin-right: 0.1rem;
+}
+.btn input{
+    width: 100%;
+    height: 0.8rem;
+    background: #f7ba2c;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    border-radius: 0.4rem;
+}
+/* 提交身份证结束 */

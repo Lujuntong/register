@@ -1,0 +1,138 @@
+body,.wrap{
+    width: 100%;
+    background: #f7ba2c;
+    overflow: hidden;
+}
+.title img{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin: 1.58rem auto 0.22rem;
+}
+.title_name{
+    width: 2.03rem;
+    height: 0.58rem;
+    background: url(../images/regsiter_07.png) no-repeat;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+}
+.content{
+    width: 4.84rem;
+    margin: 0.87rem auto 0;
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid #dcdde1;
+    border-radius: 0.1rem;
+    padding: 0.3rem 0.28rem;
+}
+.form_name,.form_phone,.form_body,.form_yan{
+    color: #dcdde1;
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid #ebdaaf;
+    padding: 0 0 0.2rem;
+}
+.form_password{
+    color: #dcdde1;
+    font-size: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebdaaf;
+    padding: 0 0 0.2rem;
+}
+.form_icon{
+    width: 0.3rem;
+    height: 0.3rem;
+    display: block;
+}
+.form_name input,.form_phone input,.form_body input,.form_password input{
+    width: 4.3rem;
+    border: 0;
+    outline: none;
+    color: #a8a8a8;
+    font-size: 0.2rem;
+    background: transparent;
+}
+.form_icon1{
+    background: url(../images/icon_03.png) no-repeat;
+    background-size: contain;
+}
+.form_icon2{
+    background: url(../images/icon_07.png) no-repeat;
+    background-size: contain;
+}
+.form_icon3{
+    background: url(../images/icon_11.png) no-repeat 0rem 0rem;
+    background-size: contain;
+}
+.form_icon4{
+    background: url(../images/icon_09.png) no-repeat 0rem 0rem;
+    background-size: contain;
+}
+.form_icon5{
+    background: url(../images/icon_13.png) no-repeat 0rem 0rem;
+    background-size: contain;
+}
+.form_yan .ipt{
+    width: 2.8rem;
+    border: 0;
+    outline: none;
+    color: #a8a8a8;
+    font-size: 0.2rem;
+    background: transparent;
+}
+.form_yan .btn{
+    width: 1.3rem;
+    height: 0.38rem;
+    background: #fd6b03;
+    color: #fcf1d8;
+    font-size: 0.2rem;
+    border-radius: 0.05rem;
+    border: 0;
+    outline: none;
+}
+.agree{
+    width: 4.84rem;
+    margin: 0.5rem auto 0.6rem;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.agree_a{
+    color: #036ede;
+    display: inline;
+}
+input[type='checkbox']{
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #fcf1d8;
+    -webkit-appearance:none;
+    border: 1px solid #c9c9c9;
+    border-radius: 0.1rem;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+input[type=checkbox]:checked{
+    border: 0;
+    background: url("../images/btn_icon_03.png")no-repeat center;
+    background-size: contain;
+}
+.agree_btn {
+    width: 4.84rem;
+    margin: 0 auto;
+}
+.agree_btn button{
+    width: 4.84rem;
+    height: 0.59rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.59rem;
+    color: #fcf1d8;
+    background: #fb8310;
+    border: 0px;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    outline: none;
+}

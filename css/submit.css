@@ -1,0 +1,127 @@
+body{
+    width: 100%;
+    background: #f1f1f1;
+}
+.title{
+    width: 100%;
+    height: 4.86rem;
+    background: #f7ba2c;
+}
+.title_top{
+    width: 100%;
+}
+.title_top h1{
+    font-size: 0.34rem;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-left: 2.3rem
+}
+.title_top a{
+    display: inline-block;
+}
+.title_top a i{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 0.2rem;
+}
+.title_bottom img{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin: 1.08rem auto 0.22rem;
+}
+.title_name{
+    width: 2.03rem;
+    height: 0.58rem;
+    background: url(../images/regsiter_07.png) no-repeat;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+}
+.inner{
+    width: 50%;
+    margin: 0 auto;
+}
+.box_list ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .8rem;
+}
+.box_p p:nth-child(1){
+    font-size: 0.26rem;
+}
+.box_p p:nth-child(2){
+    font-size: 0.2rem;
+}
+.icon{
+    width: 30%;
+}
+.box_p{
+    width: 70%;
+    margin-top: 0.1rem;
+}
+.icon1{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    background: url(../images/submit_03.png) no-repeat;
+    background-size: contain;
+}
+.icon2{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    background: url(../images/submit_06.png) no-repeat;
+    background-size: contain;
+    margin-top: 0.1rem;
+    margin-left: 0.03rem;
+}
+.icon3{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    background: url(../images/submit_08.png) no-repeat;
+    background-size: contain;
+}
+.icon4{
+    width: 0.3rem;
+    height: 0.3rem;
+    display: inline-block;
+    background: url(../images/submit_14.png) no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.box_p a{
+    display: inline-block;
+}
+.footer{
+    width: 100%;
+    height: 2.25rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;  
+}
+.footer_inner{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer_inner p{
+    font-size: 0.22rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.footer_inner input{
+    width: 100%;
+    height: 0.7rem;
+    background: #f7ba2c;
+    color: #fff;
+    border: 0;
+    border-radius: 0.15rem;
+    margin-top: 0.2rem;
+}

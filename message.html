@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提交信息页面</title>
+    <link rel="stylesheet" href="css/message.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/rem.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="title">
+            <div class="title_top">
+                <a href="javascript:;"><i class="fa fa-angle-left"></i> </a>
+                <h1>提交信息</h1>
+            </div>
+            <div class="title_bottom">
+                <img src="images/regsiter_03.png" alt="">
+                <p>
+                    <i class="title_name"></i>
+                </p>
+            </div>
+        </div>
+        <div class="box_list">
+            <form action="">
+                <label for=""><i class="icon icon1"></i><input type="text" value="姓名"></label>
+                <label for=""><i class="icon icon2"></i><input type="text" value="性别"></label>
+                <label for=""><i class="icon icon3"></i><input type="text" value="身份证号"></label>
+                <label for=""><i class="icon icon4"></i><input type="text" value="户籍地址"></label>
+                <label for=""><i class="icon icon5"></i><input type="text" value="学历"></label>
+                <label for=""><i class="icon icon6"></i><input type="text" value="婚姻状况"></label>
+                <label for=""><i class="icon icon7"></i><input type="text" value="月收入"></label>
+                <label for=""><i class="icon icon8"></i><input type="text" value="申请额度"></label>
+                <label for=""><i class="icon icon9"></i><input type="text" value="紧急联系人A姓名"></label>
+                <label for=""><i class="icon icon10"></i><input type="text" value="与紧急联系人A关系"></label>
+                <label for=""><i class="icon icon11"></i><input type="text" value="紧急联系人A电话"></label>
+                <label for=""><i class="icon icon12"></i><input type="text" value="紧急联系人B姓名"></label>
+                <label for=""><i class="icon icon13"></i><input type="text" value="与紧急联系人B关系"></label>
+                <label for=""><i class="icon icon14"></i><input type="text" value="紧急联系人B电话"></label>
+            </form>
+        </div>
+        <div class="btn">
+            <a href="">下一步</a>
+        </div>
+    </div>
+    <script>
+        $('body').on('keyup', 'input', function (e) {
+            var str = $(this).val();
+            var pattern = new RegExp("[%--`~!\#@$^&*()\\s\=|{}':;',\\[\\].<>/?~！@￥……&*（）——|{}【】‘；：”“'。，、？\"]");
+            if (str.match(pattern) != null) {
+                $(this).val(str.substring(0, str.length - 1));
+                return false;
+            }
+        });
+    </script>
+</body>
+
+</html>
